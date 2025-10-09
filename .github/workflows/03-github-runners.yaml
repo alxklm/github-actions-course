@@ -1,0 +1,11 @@
+name: 03 - GitHub Runners
+on: push
+
+jobs:
+    ubuntu-runner:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Show OS
+              run: |
+                  echo "Running on $RUNNER_OS"
+                  echo "This job running on Ubuntu"
