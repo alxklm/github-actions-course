@@ -15,4 +15,4 @@ jobs:
             - name: Show OS
               run: |
                   echo "This job running on Windows"
-                  echo "This job running on Windows"
+                  echo "Running on $RUNNER_OS"
