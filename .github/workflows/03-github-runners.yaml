@@ -1,5 +1,5 @@
 name: 03 - GitHub Runners
-on: push
+on: workflow_dispatch
 
 jobs:
     ubuntu-runner:
