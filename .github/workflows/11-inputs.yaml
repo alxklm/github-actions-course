@@ -10,7 +10,7 @@ on:
             dry-run:
                 type: boolean
                 description: Skip deployment and only print build output
-                default: true
+                default: false
             target:
                 type: environment
                 required: true
