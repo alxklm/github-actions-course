@@ -1,0 +1,15 @@
+name: 11 - Inputs
+on:
+    workflow_dispatch:
+        inputs:
+            dry-run:
+                type: boolean
+                description: Skip the deployment and only print build output
+                default: false
+            target:
+                type: environment
+                required: true
+
+jobs:
+    echo:
+        runs-on: ubuntu-latest
