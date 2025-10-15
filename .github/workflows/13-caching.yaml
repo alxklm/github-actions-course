@@ -6,7 +6,7 @@ on:
                 description: Whether to use cache
                 type: boolean
                 default: true
-            type of node:
+            type-of-node:
                 description: Type of node to use
                 type: choice
                 options:
